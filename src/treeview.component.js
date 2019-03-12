@@ -81,7 +81,7 @@ var TreeviewComponent = /** @class */ (function () {
             if (!isNil(this.items)) {
                 this.updateFilterItems();
                 this.updateCollapsedOfAll();
-                this.raiseSelectedChange();
+                // this.raiseSelectedChange();
             }
         }
         this.createHeaderTemplateContext();
